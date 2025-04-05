@@ -1,0 +1,57 @@
+# === Core Libraries ===
+numpy==1.24.4
+pandas==1.5.3
+matplotlib==3.7.3
+opencv-python==4.8.0.76
+Pillow==10.2.0
+
+# === Deep Learning & AI Models ===
+tensorflow==2.15.0
+torch==2.2.1
+torchvision==0.17.1
+scikit-learn==1.3.2
+keras==2.15.0
+onnx==1.15.0
+onnxruntime==1.17.0
+
+# === Model Fusion, Attention & Visualization ===
+einops==0.7.0
+seaborn==0.13.2
+albumentations==1.4.0
+grad-cam==1.4.6  # For occlusion heatmaps & visual explanations
+
+# === Scheduling, Multithreading & Orchestration ===
+schedule==1.2.1
+apscheduler==3.10.4
+threadpoolctl==3.3.0
+psutil==5.9.8
+
+# === Google Cloud AI Platform & Edge Integration ===
+google-cloud-aiplatform==1.44.0
+google-api-core==2.17.1
+google-auth==2.29.0
+google-cloud-core==2.4.1
+google-cloud-storage==2.16.0
+grpcio==1.60.0
+protobuf==4.25.3
+
+# === Kubernetes / Edge Resource Scheduling ===
+kubernetes==29.0.0
+pyyaml==6.0.1
+
+# === Logging, Monitoring, Visualization ===
+tqdm==4.66.2
+rich==13.7.0
+loguru==0.7.2
+tensorboard==2.15.1
+
+# === Web Interface & API (Optional for Dashboards) ===
+fastapi==0.110.0
+uvicorn==0.29.0
+streamlit==1.32.0
+
+# === Miscellaneous Utilities ===
+setuptools==68.2.2
+requests==2.31.0
+scipy==1.11.4
+h5py==3.10.0
